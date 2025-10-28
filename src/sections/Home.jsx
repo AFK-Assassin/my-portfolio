@@ -1,9 +1,9 @@
-import React from 'react'
-
-const Home = () => {
+export default function Home() {
   return (
-    <div className='w-full h-screen'>Home</div>
-  )
+    <section 
+    className="w-full h-screen"
+    id="home">
+      {/* Your home content here */}
+    </section>
+  );
 }
-
-export default Home
