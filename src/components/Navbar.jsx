@@ -80,19 +80,18 @@ export default function Navbar() {
     <>
       <nav
         className={`w-full fixed px-6 py-2 z-50 flex items-center justify-between 
-        backdrop-blur-md
         transition-transform duration-300 ease-in-out
         ${visible ? "translate-y-0" : "-translate-y-full"}`}
       >
         {/* Left section: Logo */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <img
             className="w-12 h-12 object-contain"
             src={logo}
             alt="Zunaid Logo"
             loading="lazy"
           />
-          <span className="text-2xl font-bold text-white hidden sm:block">
+          <span className="text-3xl font-bold text-white hidden sm:block">
             Zunaid
           </span>
         </div>
