@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import ParticleBackground from "../components/ParticleBackground";
 import { useEffect, useMemo, useState } from "react";
-import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
-import { FaGithub, FaInstagramSquare } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa6";
 import avator from "../assets/avator.png"
 
 export default function Home() {
@@ -13,7 +12,7 @@ export default function Home() {
   const [deleting, setDeleting] = useState(false);
 
   const socials = [
-    { icon: FaInstagramSquare, label: "Instagram", href: "https://www.instagram.com/l_azyzen/" },
+    { icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/l_azyzen/" },
     { icon: FaLinkedin, label: "Linkdin", href: "https://www.linkedin.com/in/zunaid-mullick-a9b9a6305/" },
     { icon: FaGithub, label: "Github", href: "https://github.com/AFK-Assassin" },
   ];
@@ -47,7 +46,7 @@ export default function Home() {
   }, [roles, index, subIndex, deleting]);
 
   return (
-    <section className="w-full h-screen relative bg-black overflow-hidden" id="home">
+    <section  className=" min-h-screen w-full pt-15 relative bg-black overflow-hidden" id="home">
       <ParticleBackground />
 
       {/* Blurred glowing background circles */}
@@ -67,7 +66,7 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 px-8 mt-1 h-full w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2">
+      <div className="relative z-10 px-8 mt-1  h-full w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2">
         <div id="left" className="relative flex flex-col h-full justify-center text-center lg:text-left">
           <div className="lg:pr-10 mx-auto w-full max-w-[48rem]">
 
@@ -113,7 +112,7 @@ export default function Home() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="mt-4 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0"
             >
-              I’m a developer ho turns ideas into sleek, high-performing web experiences —
+              I’m a developer who turns ideas into sleek, high-performing web experiences —
               where logic meets creativity and passion drives results.
             </motion.p>
 
