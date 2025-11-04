@@ -108,7 +108,7 @@ export default function Navbar() {
         {/* Right: Contact Button */}
         <div className="hidden lg:block">
           <a
-            href="#Contact"
+            href="Contact"
             className="inline-block py-2 px-4 font-medium text-white rounded-full bg-gradient-to-r from-pink-500 to-blue-500 shadow-xl
             hover:opacity-90 transform hover:scale-110 transition-all duration-300"
           >
