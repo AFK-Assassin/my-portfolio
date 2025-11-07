@@ -1,14 +1,3 @@
-
-import React from 'react'
-
-const Footer = () => {
-  return (
-    <div className='w-full h-screen'>Footer</div>
-  )
-}
-
-export default Footer
-
 import React from "react";
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa6";

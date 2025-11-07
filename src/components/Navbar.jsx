@@ -1,14 +1,3 @@
-
-import React from 'react'
-
-const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
-}
-
-export default Navbar
-
 import { useEffect, useRef, useState, useCallback } from "react";
 import OverlayMenu from "./OverlayMenu";
 import logo from "../assets/Z_logo.png";

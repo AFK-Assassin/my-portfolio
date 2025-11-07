@@ -1,14 +1,3 @@
-
-import React from 'react'
-
-const Projects = () => {
-  return (
-    <div className='w-full h-screen'>Projects</div>
-  )
-}
-
-export default Projects
-
 import { motion, useAnimation } from "framer-motion";
 import React from "react";
 import { FaRegCircle } from "react-icons/fa";

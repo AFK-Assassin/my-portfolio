@@ -1,14 +1,4 @@
 
-import React from 'react'
-
-const IntroAnimation = () => {
-  return (
-    <div>IntroAnimation</div>
-  )
-}
-
-export default IntroAnimation
-
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useEffect, useMemo, useState } from "react";
 

@@ -1,14 +1,4 @@
-
 import React from 'react'
-
-const Contact = () => {
-  return (
-    <div className='w-full h-screen'>Contact</div>
-  )
-}
-
-export default Contact
-
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import ParticleBackground from "../components/ParticleBackground";

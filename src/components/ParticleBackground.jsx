@@ -116,11 +116,7 @@ export default function ParticleBackground() {
   return (
     <canvas
       ref={canvasRef}
-
       className="fixed w-full h-full top-0 left-0 pointer-events-none z-0"
-
-      className="absolute w-full h-full top-0 left-0 pointer-events-none z-0"
-
     />
   );
 }

@@ -1,14 +1,6 @@
 
 import React from 'react'
 
-const OverlayMenu = () => {
-  return (
-    <div>OverlayMenu</div>
-  )
-}
-
-export default OverlayMenu
-
 // Import motion and AnimatePresence for animation control from Framer Motion
 import { AnimatePresence, motion } from "framer-motion";
 // Import close icon from react-icons

@@ -1,14 +1,4 @@
-
 import React from 'react'
-
-const Home = () => {
-  return (
-    <div className='w-full h-screen'>Home</div>
-  )
-}
-
-export default Home
-
 import { motion } from "framer-motion";
 import ParticleBackground from "../components/ParticleBackground";
 import { useEffect, useMemo, useState } from "react";

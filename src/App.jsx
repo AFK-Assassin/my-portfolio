@@ -1,6 +1,3 @@
-
-import React from "react";
-
 import React, { useState } from "react";
 
 import Navbar from "./components/Navbar";
@@ -11,44 +8,31 @@ import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 
-import ParticleBackground from "./components/ParticleBackground";
-
-export default function App() {
-  return (
-    <div className="relative gradient text-white"> 
-    <ParticleBackground />
-
 import CustomCursor from "./components/CustomCursor";
 import IntroAnimation from "./components/IntroAnimation";
+// import ParticleBackground from "./components/ParticleBackground"; // Uncomment if you want it
 
 export default function App() {
-
-  const [introDone,setIntroDone]= useState(false);
-
+  const [introDone, setIntroDone] = useState(false);
 
   return (
+    <>
+      {!introDone && <IntroAnimation onFinish={() => setIntroDone(true)} />}
 
-    <> 
-    {!introDone && <IntroAnimation  onFinish={()=>setIntroDone(true) }  /> }
+      {introDone && (
+        <div className="relative gradient text-white">
+          <CustomCursor />
+          {/* <ParticleBackground /> */}
 
-    {introDone && (
-
-    <div className="relative gradient text-white"> 
-      <CustomCursor />
-      {/* <ParticleBackground /> */}
-
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
-
-
-    )}
+          <Navbar />
+          <Home />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+        </div>
+      )}
     </>
-
   );
 }
