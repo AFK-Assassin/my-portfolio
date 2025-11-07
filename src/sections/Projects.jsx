@@ -20,7 +20,9 @@ export default function Projects() {
   ];
 
   return (
-    <section className="relative w-full py-20 bg-black text-white overflow-hidden">
+    <section
+    id="projects"
+    className="relative w-full py-20 bg-black text-white overflow-hidden">
       {/* ==== BLOBS ==== */}
       {[
         { top: "10%", left: "10%", delay: 0 },
