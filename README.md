@@ -1,3 +1,4 @@
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,18 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# My Portfolio
+
+A modern and responsive personal portfolio built with **React** and **Tailwind CSS**.  
+It features smooth animations, an interactive particle background, and showcases my projects and skills.
+
+## Features
+- Particle background animation using canvas  
+- Responsive design for all devices  
+- Clean UI built with Tailwind CSS  
+- Sections for About, Projects, and Contact
+
+## Tech Stack
+React, Tailwind CSS, JavaScript, HTML5, CSS3
+
