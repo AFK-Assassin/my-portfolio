@@ -1,5 +1,5 @@
 import React from "react";
-import boy from "../assets/boy.jpg";
+import boy from "../assets/boy.png";
 import { motion } from "framer-motion";
 
 export default function About() {
